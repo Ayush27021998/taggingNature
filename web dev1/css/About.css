@@ -1,0 +1,44 @@
+img{
+    display: block;
+    width: 95%; 
+    max-height: 550px;
+    margin: auto;
+}
+h1{
+    font-size:40px;
+}
+
+body{
+    text-align: center;
+    background-color: mediumslateblue;  
+}
+pre{
+    display: block;
+    margin: auto;
+    width:95%;
+    color: aliceblue;
+    background-color: black;
+    text-align: justify;
+    font-size: 200%;
+}
+a{
+    display: inline-block;
+    width: 70px;
+    margin: 25px;
+    border: 1px solid;
+    padding: 10px;
+    background-color: aliceblue;
+}
+a:link{
+    color: slateblue;
+    text-decoration: none;
+}
+a:visited{
+    color: slateblue;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+strong{font-size: 115%}   

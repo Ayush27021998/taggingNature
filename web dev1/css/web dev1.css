@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    text-align: center;
+    background: lightblue;
+}
+h1{
+    width: 100%;    
+    margin: 0px;
+    font-family: cursive;
+    color: rgb(225,30,40);
+    font-size: 300%;
+    border:1px grey;
+    padding: 40px;
+    background-color: rgb(60,10,0);
+    display: block; 
+    position: fixed;
+}
+ul{
+    clear: both;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: block;     
+    position: fixed;
+    top: 135;
+    width:100%;
+}
+li:hover{
+    background-color: red;
+}
+li{
+    clear: both;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0px 100px;
+}
+img.ab{
+    width: 90%;
+    max-height: 450px;
+    margin-top: 181;
+    
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 300px;
+    background: black;
+    color: whitesmoke
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+    width: 315px;
+    margin: 0px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 200px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    height: 120px;
+    overflow-y: auto;
+}
+div.title{
+    padding: 15px;
+    text-align: center;
+}
+a:link{
+    padding:inherit;
+    width: inherit;
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:visited{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    color: cyan;
+    text-decoration: none;
+}
+a:active{
+    color: whitesmoke;
+    text-decoration: none;
+}
